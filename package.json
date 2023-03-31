@@ -1,0 +1,23 @@
+{
+  "name": "audio-streamer-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "type": "module",
+  "author": "James Onyekachi",
+  "license": "ISC",
+  "dependencies": {
+    "@dropb/ffprobe": "^2.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "ffprobe-static": "^3.1.0",
+    "socket.io": "^4.6.1",
+    "throttle": "^1.0.3",
+    "uuid": "^9.0.0"
+  }
+}
